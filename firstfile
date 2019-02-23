@@ -1,0 +1,13 @@
+py = ay
+
+question = raw_input("Enter your name: ")
+
+if (question) > 0 and question.isalpha():
+  word = question.lower()
+  first_letter = word[0]
+  new_word = word + first_letter + py
+  new_word = new_word[1:len(new_word)]
+  print new_word
+  
+else:
+  print "Name not in the database"
